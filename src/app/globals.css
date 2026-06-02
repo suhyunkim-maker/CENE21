@@ -1,0 +1,43 @@
+:root {
+  --neon-pink: #ff00ff;
+  --neon-green: #ccff00;
+  --neon-purple: #9d00ff;
+  --neon-yellow: #fffb00;
+  --pure-black: #000000;
+  --pure-white: #ffffff;
+  --brutal-border: 6px solid #000;
+  --brutal-shadow: 10px 10px 0px 0px #000;
+  
+  /* Extremely bold sans-serif */
+  --font-family: 'Impact', 'Arial Black', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--pure-black);
+  color: var(--pure-black);
+  line-height: 1.2;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
